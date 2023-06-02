@@ -24,6 +24,15 @@ body{
     padding-bottom: 20px;
 }
 
+.den{
+    position: absolute;
+    top: 10%;
+    font-size: 20px;
+    font-weight: 1200;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
 .arrow{
     position: absolute;
     top: 43%;
@@ -108,7 +117,7 @@ body{
     text-align: center;
     border-radius: 5px;
     border-color: #414651;
-    top: 53%;
+    top: 52.5%;
     left: 15%;
 }
 
@@ -129,16 +138,36 @@ body{
     text-align: center;
     border-radius: 5px;
     border-color: #414651;
-    top: 47.1%;
+    top: 47.3%;
     right: 15%;
     padding: 21px;
 }
  
 .alert{
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 30%;
     font-size: 100px;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.kurz{
+    position: absolute;
+    top: 65%;
+    left: 45.3%;
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.kurz2{
+    position: absolute;
+    top: 68%;
+    left: 45.3%;
+    font-size: 30px;
     font-weight: 1000;
     color: black;
     font-family: 'Raleway', sans-serif;

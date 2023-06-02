@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="day()">
     <h1 class="title">Směnárna u Ondry</h1>
+    <h2 id="den" class="den">Naposledy aktualizováno podle kurzů České národní banky dne:</h2>
     <img class="arrow" src="arrow.png" width="300">
     <div class="selection">
         <h2 class="zna1">Z:</h2>
@@ -88,6 +89,8 @@
         </select>
     </div>
     <div class="selection">
+        <h2 class="kurz">Aktuální kurz:</h2>
+        <p id="kurz" class="kurz2"></p>
         <p id="alert" class="alert">VYBERTE MĚNU</p>
         <p id="num" class="output"></p>
         <button class="button" type="button" onclick="input()">Přepočítat</button>
