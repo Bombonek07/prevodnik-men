@@ -1,0 +1,136 @@
+body{
+    background-color:rgb(201, 201, 201);
+}
+
+.title{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 6px;
+    border-style: solid;
+    border-color: black;
+    
+    width:  100%;
+    left: -0px;
+    top: -10px;
+
+    padding-bottom: 20px;
+}
+
+.arrow{
+    position: absolute;
+    top: 43%;
+    left: 42%;
+}
+
+.button{
+    position: absolute;
+    top: 50.3%;
+    left: 43.5%;
+    background: none;
+    border-style: solid;
+    border-radius: 5px;
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 160px;
+    min-height: 160px;
+    color: #ffffff;
+}
+
+.options2{
+    position: absolute;
+    max-width: 160px;
+    min-width: 160px;
+    background-color: #ffffff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 50%;
+    right: 25%
+}
+
+.options1{
+    position: absolute;
+    max-width: 160px;
+    min-width: 160px;
+    background-color: #ffffff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 50%;
+    left: 26.5%;
+}
+
+.zna1{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    top: 47%;
+    left: 25%;
+}
+
+.zna2{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    top: 47%;
+    right: 34%;
+}
+
+.selection{
+    margin: auto;
+}
+
+.input{
+    position: absolute;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 100px;
+    min-height: 100px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 53%;
+    left: 25%;
+}
+
+.output{
+    position: absolute;
+    max-width: 262px;
+    min-width: 262px;
+    min-height: 60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 47.1%;
+    right: 25%;
+    padding: 21px;
+}
+ 
