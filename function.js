@@ -1,15 +1,22 @@
-function lenguage() { 
-    var result = document.getElementById("option").value; 
-    console.log(result)
+let pre_z = 0
+let pre_do = 0
+
+
+
+function currency() { 
+    return pre_z = document.getElementById("option").value; 
 }
 
-function lenguage2() { 
-    var result2 = document.getElementById("option2").value; 
-    console.log(result2)
+function currency2() { 
+    return pre_do = document.getElementById("option2").value;
 }
 
-function input(){
-    var num = document.getElementById("input").value;
-    document.getElementById("num").innerHTML = num;
-    console.log(num)
+async function input(){
+    let num = document.getElementById("input").value;
+    let raw = await fetch("https://data.kurzy.cz/json/meny/b[6].json")
+    let data = await raw.json()
+    console.log(data)
+    
+    /*document.getElementById("num").innerHTML = num;
+    console.log(num)*/
 }
