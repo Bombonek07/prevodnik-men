@@ -16,13 +16,13 @@
     <div class="selection">
         <h2 class="zna1">Z:</h2>
         <select id="option2" onchange="currency2();" class="options2">
-            <option value=0>-select-</option>
+            <option value=null>-select-</option>
             <option value=USD>Americký dolar</option>
             <option value=AUD>Australský dolar</option>
             <option value=BRL>Brazilský real</option>
             <option value=GBP>Britská libra</option>
             <option value=BGN>Bulharský lev</option>
-            <option value=1>Česká koruna</option>
+            <option value=CZK>Česká koruna</option>
             <option value=CNY>Čínský juan</option>
             <option value=DKK>Dánská koruna</option>
             <option value=EUR>Euro</option>
@@ -88,6 +88,7 @@
         </select>
     </div>
     <div class="selection">
+        <p id="alert" class="alert">VYBERTE MĚNU</p>
         <p id="num" class="output"></p>
         <button class="button" type="button" onclick="input()">Přepočítat</button>
         <input id="input" class="input" type="number" placeholder="kolik">
