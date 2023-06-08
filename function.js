@@ -84,3 +84,4 @@ async function input(){
         document.getElementById("num").innerHTML = kurz4.toFixed(4);
     }
 }
+//test
