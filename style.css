@@ -1,0 +1,173 @@
+body{
+    background-color:rgb(201, 201, 201);
+}
+
+.title{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.8vw;
+    font-weight: 1000;
+    text-align: center;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0.3vw;
+    border-style: solid;
+    border-color: black;
+    width:  100%;
+    left: -0px;
+    top: -0.5vw;
+    padding-bottom: 1vw;
+}
+
+.den{
+    position: absolute;
+    top: 5.2vw;
+    font-size: 1.1vw;
+    font-weight: 1200;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.arrow{
+    position: absolute;
+    top: 21.5vw;
+    left: 42.2vw;
+    width: 15.6vw;
+}
+
+.button{
+    position: absolute;
+    top: 25.2vw;
+    left: 43.3vw;
+    background: none;
+    border-style: solid;
+    border-radius: 5px;
+    max-width: 13.4vw;
+    min-width: 13.4vw;
+    max-height: 8.2vw;
+    min-height: 8.2vw;
+    color: #ffffff;
+    font-size: 0.8vw;
+}
+
+.options2{
+    position: absolute;
+    max-width: 160px;
+    min-width: 160px;
+    background-color: #ffffff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 50%;
+    right: 15%
+}
+
+.options1{
+    position: absolute;
+    max-width: 160px;
+    min-width: 160px;
+    background-color: #ffffff;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 50%;
+    left: 16.5%;
+}
+
+.zna1{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    top: 47%;
+    left: 15%;
+}
+
+.zna2{
+    position: absolute;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    top: 47%;
+    right: 24%;
+}
+
+.selection{
+    margin: auto;
+}
+
+.input{
+    position: absolute;
+    max-width: 300px;
+    min-width: 300px;
+    max-height: 100px;
+    min-height: 100px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 52.5%;
+    left: 15%;
+}
+
+.output{
+    position: absolute;
+    max-width: fit-content;
+    min-width: 262px;
+    min-height: 60px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    background-color: #ffffff;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 1000;
+    text-align: center;
+    border-radius: 5px;
+    border-color: #414651;
+    top: 47.3%;
+    right: 15%;
+    padding: 21px;
+}
+ 
+.alert{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 100px;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.kurz{
+    position: absolute;
+    top: 65%;
+    left: 45.3%;
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
+.kurz2{
+    position: absolute;
+    top: 68%;
+    left: 45.3%;
+    font-size: 30px;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
