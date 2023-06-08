@@ -43,6 +43,7 @@ body{
     left: 43.3vw;
     background: none;
     border-style: solid;
+    border-width: 0.2vw;
     border-radius: 0.3vw;
     max-width: 13.4vw;
     min-width: 13.4vw;
@@ -59,8 +60,10 @@ body{
     background-color: #ffffff;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.61vw;
     text-align: center;
     border-radius: 0.3vw;
+    border-width: 0.15vw;
     border-color: #414651;
     top: 25vw;
     right: 15vw;
@@ -73,8 +76,10 @@ body{
     background-color: #ffffff;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.61vw;
     text-align: center;
     border-radius: 0.3vw;
+    border-width: 0.15vw;
     border-color: #414651;
     top: 25vw;
     left: 16.5vw;
